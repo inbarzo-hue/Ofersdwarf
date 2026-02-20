@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute Dwarf</title>
+    <title>Have a Great Day My Giant!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .dwarf {
+            font-size: 60px;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            font-family: monospace;
+            white-space: pre;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Have a great day my giant!</h1>
-    <img src="https://example.com/cute-dwarf.png" alt="Cute Dwarf">
+    <div class="container">
+        <pre class="dwarf">
+    ^_^
+   (o o)
+    \ _ /
+    /| |
+     / \
+        </pre>
+        <h1>Have a great day my giant! 🧙</h1>
+    </div>
 </body>
 </html>
